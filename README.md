@@ -28,8 +28,8 @@ TSAR (Toolbox for Security & Automated Reporting) est une plateforme de test d'i
 
 1.  **Clonez le dépôt :**
     ```bash
-    git clone https://github.com/yvanfocsa/tsar.git
-    cd tsar
+    git clone https://github.com/ivanfocsa/TSAR.git
+    cd TSAR
     ```
 
 2.  **Configurez les variables d'environnement :**
@@ -159,6 +159,11 @@ MODULE = {
 ```
 
 3.  Redémarrez les conteneurs (`docker-compose restart worker web`) et votre nouveau module apparaîtra automatiquement dans l'interface !
+
+## Documentation technique
+
+- [Architecture](docs/ARCHITECTURE.md) : composants, flux d'execution et posture securite.
+- [Contrat des modules](docs/MODULE_CONTRACT.md) : schema attendu pour ajouter un outil proprement.
 
 ## 🏗️ Structure du Projet
 
